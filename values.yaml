@@ -1,0 +1,7 @@
+frontend:
+  image: shahedmehbub/tf-two-tier-frontend:v5
+  replicaCount: 1
+
+backend:
+  image: shahedmehbub/tf-two-tier-backend:ae067b5b
+  replicaCount: 1
